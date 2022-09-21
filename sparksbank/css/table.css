@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+h2{
+	font-size: 40px;
+}
+table{
+	border-color: #f2f0f0;
+	letter-spacing: 1.2px;
+}
+
+td{ 
+	border-color: #100d0d;
+	text-align: center;
+}
+button{
+	border:none;
+	background: #f9f7f7;
+    transition: 1.5s;
+}
+
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
+
+.im{
+	width: 150px;
+	height: 110px;
+	position: absolute;
+	left: -85px;
+	top: 60px;
+	
+}
+
